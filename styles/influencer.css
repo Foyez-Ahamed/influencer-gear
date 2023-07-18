@@ -50,39 +50,49 @@ nav{
 }
 /* navbar section styles */
 
+/* banner section styles */
+.banner{
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
 
-/* media queries for mobile device */
-@media screen and (max-width: 576px) {
-    nav{
-        padding: 10px;
-    }
+.banner-content{
+    padding-top:60px;
+    width: 60%;
+}
 
-    .navbar-container{
-        flex-direction: column;
-        text-align: center;
-    }
+.banner-content h1{
+    font-size: 3rem;
+    color: #3A3A3A;
+    font-weight: 700;
+}
 
-    .nav-items > ul{
-        flex-direction: column;
-        gap: 15px;
-    }
-    .nav-items ul li a img{
-        flex-direction: column;
-    }
-  }
+.banner-content p{
+    color: #3A3A3A;
+    margin-top: 10px;
+}
 
-/* media queries for mobile device */
+.banner-content button{
+    margin-top: 20px;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    color: #fff;
+    font-size: 1rem;
+}
 
-
-
-
-/* media queries for medium device */
-@media screen and (min-width: 576px) and (max-width: 992px){
-    nav{
-        padding: 20px;
-    }
-
-    
-  }
-
-/* media queries for medium device */
+.banner-image{
+    width: auto;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-image img{
+    width: 100%;
+}
+/* banner section styles */
