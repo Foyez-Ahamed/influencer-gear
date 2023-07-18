@@ -96,3 +96,20 @@ nav{
     width: 100%;
 }
 /* banner section styles */
+
+/* sponsor section styles */
+.sponsor{
+    max-width:85%;
+    margin: 60px auto 0px auto;
+    background: #fff;
+    padding: 20px;
+    background: linear-gradient(135deg, rgba(192, 204, 218, 0.10) 0%, rgba(225, 232, 239, 0.6) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+
+.sponsor-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* sponsor section styles */
