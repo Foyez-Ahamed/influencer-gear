@@ -34,17 +34,21 @@
         font-size: 1.7rem;
     }
 
-    .sponsor-image{
+    /* .sponsor-image{
         display: grid;
         grid-template-columns: repeat(4, 2fr);
         gap: 20px 10px;
         padding: 20px;
         justify-content: center;
         align-items: center;
-    }
+    } */
 
-    .sponsor-image img{
+    /* .sponsor-image img{
         width: 70px;
+    } */
+
+    .popular-cards{
+        grid-template-columns: 1fr;
     }
   }
 
@@ -79,6 +83,10 @@
 
     .sponsor-image{
         flex-direction: row;
+    }
+
+    .popular-cards{
+        grid-template-columns: repeat(2, 1fr);
     }
     
   }
